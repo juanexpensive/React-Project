@@ -1,20 +1,22 @@
+import "./HeaderComponent.css";
+
 function HeaderComponent() {
     return (
-        <header>
-            <h1>Welcome</h1>
+        <header className="header">
+            <h1 className="title">Welcome</h1>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
+                <ul className="header-list">
+                    <li >
+                        <a className="link" href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">News</a>
+                        <a className="link" href="#">News</a>
                     </li>
                     <li>
-                        <a href="#">Profile</a>
+                        <a className="link" href="#">Profile</a>
                     </li>
                     <li>
-                        <a href="#">Contact Us!</a>
+                        <a  className="link" href="#">Contact Us!</a>
                     </li>
                 </ul>
             </nav>
